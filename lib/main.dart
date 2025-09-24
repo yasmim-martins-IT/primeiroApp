@@ -84,6 +84,10 @@ class MyApp extends StatelessWidget {
               width: double.infinity,
               height: 50,
               color: Colors.blueGrey,
+
+              child: Center(
+                child: Container(width: 20, height: 20,color: Colors.black,),
+              ),
             ),
             Container(
               width: 50,
