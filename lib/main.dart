@@ -25,6 +25,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       // O MaterialApp é uma classe que prove os componentes para a tela
 
+      //tirando a faixa de debug
+      debugShowCheckedModeBanner: false,
+
       // scaffold separa a tela em partes para criar uuma estrutura , ele consegue fazer em até 3 partes
 
       home: Scaffold(
